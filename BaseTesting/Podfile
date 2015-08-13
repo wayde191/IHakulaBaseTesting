@@ -1,0 +1,10 @@
+platform :ios, '7.1'
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/wayde191/IHakulaSpecs.git'
+
+use_frameworks!
+
+target 'BaseTesting' do
+pod 'Base', '~> 0.9.0'
+end
